@@ -3,7 +3,23 @@
     "allow": [
       "Bash(python3:*)",
       "Bash(pip3 install:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(delta:*)",
+      "Bash(bat:*)",
+      "Bash(ghostty:*)",
+      "Bash(curl:*)",
+      "Bash(brew install:*)",
+      "Bash(git config:*)",
+      "Bash(lpstat:*)",
+      "Bash(lpadmin:*)",
+      "Bash(sw_vers:*)",
+      "Bash(lpinfo:*)",
+      "Bash(lpoptions:*)",
+      "Bash(pandoc:*)",
+      "Bash(cupsfilter:*)",
+      "Bash(uvx weasyprint:*)",
+      "Bash(fc-list:*)",
+      "Bash(system_profiler:*)"
     ]
   }
 }
