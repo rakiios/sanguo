@@ -28,6 +28,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `scenes/` — 场景档案（如 `yidu-market.md`、`chibi-ruins.md`）
 - `content/` — 产出内容：章节 `chapter-NNN.md`、草稿 `draft-*`、审阅 `reviews/`
 - `design/` — 设计文档
+  - `design/worldbuilding.md` — 世界观：双层嵌套现实、能量品级体系、权限逻辑、揭秘节奏
+  - `design/style-guide.md` — 风格指南：叙事声音、隐喻替代系统、禁用词汇表、写作约束
 - `.claude/skills/` — 四个 skill 的定义和参考资料
 
 ## Key Design Constraints
@@ -39,6 +41,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 3. **皆会犯错** — 判断失误是剧情张力的来源
 4. **超自然有代价** — 异能必须定义清晰的限制和使用代价
 5. **时间锚定** — 所有场景设定在赤壁之战之后
+6. **隐喻包装** — 里世界叙事中科幻概念必须通过古风隐喻表达，严禁现代计算机术语（详见 `design/style-guide.md`）
 
 ## Attribute System
 
