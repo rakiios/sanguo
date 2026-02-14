@@ -36,14 +36,14 @@ status: active | injured | dead | missing
 - **语言示例**:
   > "<一句典型台词>"
 
-## 属性（十分制）
+## 属性（百分制）
 | 属性 | 值 | 说明 |
 |------|-----|------|
-| 武力 | X | <简要说明> |
-| 智力 | X | <简要说明> |
-| 体力 | X | <简要说明> |
-| 魅力 | X | <简要说明> |
-| 政治 | X | <简要说明> |
+| 武力 | XX | <简要说明> |
+| 智力 | XX | <简要说明> |
+| 体力 | XX | <简要说明> |
+| 魅力 | XX | <简要说明> |
+| 政治 | XX | <简要说明> |
 
 ## 背景
 <2-3段背景故事，交代出身、关键转折、当前处境>
@@ -81,7 +81,7 @@ Create characters adhering to these rules:
 
 ## Attribute Guidelines
 
-Attributes follow a Koei-style Ten-point scale. See [references/attributes.md](references/attributes.md) for the full attribute system and benchmark characters.
+Attributes follow a Koei-style Hundred-point scale. See [references/attributes.md](references/attributes.md) for the full attribute system and benchmark characters.
 
 ## Character ID Convention
 
