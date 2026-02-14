@@ -19,7 +19,15 @@
       "Bash(cupsfilter:*)",
       "Bash(uvx weasyprint:*)",
       "Bash(fc-list:*)",
-      "Bash(system_profiler:*)"
+      "Bash(system_profiler:*)",
+      "Bash(gh api:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(python scripts/check_characters.py:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(lsof:*)",
+      "WebSearch"
     ]
   }
 }

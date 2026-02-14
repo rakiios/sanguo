@@ -45,7 +45,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Attribute System
 
-五维属性采用光荣三国志式十分制：武力、智力、体力、魅力、政治。基准校准见 `.claude/skills/character-creator/references/attributes.md`。主角（如林一）不应有极端属性值，留出成长空间。
+五维属性采用光荣三国志式百分制：武力、智力、体力、魅力、政治。基准校准见 `.claude/skills/character-creator/references/attributes.md`。主角（如林一）不应有极端属性值，留出成长空间。
 
 ## ID & Naming Conventions
 
