@@ -32,6 +32,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `design/style-guide.md` — 风格指南：叙事声音、隐喻替代系统、禁用词汇表、写作约束
 - `.claude/skills/` — 四个 skill 的定义和参考资料
 
+## CI / Validation
+
+- `scripts/check_characters.py` — 角色档案格式校验（frontmatter 必填字段、必填章节、属性范围、占位符残留检测）
+- GitHub Actions: `.github/workflows/check-characters.yml` — PR 时自动运行
+- 创建/编辑角色后运行 `python scripts/check_characters.py` 本地验证
+
 ## Key Design Constraints
 
 所有创作内容必须遵守：
@@ -57,6 +63,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 使用 Claude Code teams 进行多角色模拟时，Director 作为 team lead，每个角色由独立 general-purpose agent 驱动。完整配置方案见 `.claude/skills/director-ai/references/team-setup.md`。
 
+## Workflow
+
+- 创作相关决策前，加载 `critical-thinking` skill 进行批判性审视
+
 ## Language
 
 项目叙事内容和文档使用简体中文。ID、文件名、代码层面使用英文。与用户交流使用简体中文。
+
